@@ -1,4 +1,4 @@
-import { Routes } from './routes';
+import { Routes } from './Routes';
 import './App.css';
 
 export const App = () => {

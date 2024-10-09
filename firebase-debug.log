@@ -1,0 +1,116 @@
+[debug] [2024-10-09T04:16:31.964Z] ----------------------------------------------------------------------
+[debug] [2024-10-09T04:16:31.966Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-10-09T04:16:31.966Z] CLI Version:   13.22.0
+[debug] [2024-10-09T04:16:31.966Z] Platform:      win32
+[debug] [2024-10-09T04:16:31.966Z] Node Version:  v20.17.0
+[debug] [2024-10-09T04:16:31.967Z] Time:          Tue Oct 08 2024 21:16:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-10-09T04:16:31.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-09T04:16:32.029Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:16:32.031Z] Field ".hosting.rewrites[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-10-09T04:16:32.031Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2024-10-09T04:16:32.031Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-10-09T04:16:32.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-09T04:16:32.035Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
+[debug] [2024-10-09T04:16:32.035Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-10-09T04:16:32.036Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:32.037Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
+[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
+[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-09T04:16:33.278Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
+[debug] [2024-10-09T04:16:33.279Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-09T04:16:33.279Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:33.279Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:33.280Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-09T04:16:34.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-09T04:16:34.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[info] 
+[info] === Deploying to 'resumewebsite-a48fc'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-10-09T04:16:34.225Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:34.225Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:16:34.225Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions [none]
+[debug] [2024-10-09T04:16:34.226Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-10-09T04:16:35.220Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions 200
+[debug] [2024-10-09T04:16:35.220Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"name":"projects/129686599732/sites/resumewebsite-a48fc/versions/1c0aa9e63c5ba02f","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[resumewebsite-a48fc]: beginning deploy... 
+[info] i  hosting[resumewebsite-a48fc]: found 84 files in / 
+[debug] [2024-10-09T04:16:35.261Z] [hosting] uploading with 200 concurrency
+[debug] [2024-10-09T04:16:35.261Z] [hosting] hash cache [] not populated
+[debug] [2024-10-09T04:16:35.315Z] Error: EISDIR: illegal operation on a directory, read
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-10-09T04:17:59.131Z] ----------------------------------------------------------------------
+[debug] [2024-10-09T04:17:59.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-10-09T04:17:59.134Z] CLI Version:   13.22.0
+[debug] [2024-10-09T04:17:59.134Z] Platform:      win32
+[debug] [2024-10-09T04:17:59.134Z] Node Version:  v20.17.0
+[debug] [2024-10-09T04:17:59.134Z] Time:          Tue Oct 08 2024 21:17:59 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-10-09T04:17:59.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
+[debug] [2024-10-09T04:17:59.187Z] Field ".hosting.rewrites[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-10-09T04:17:59.187Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2024-10-09T04:17:59.187Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-10-09T04:17:59.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-09T04:17:59.190Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
+[debug] [2024-10-09T04:17:59.190Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-10-09T04:17:59.191Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:17:59.191Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
+[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
+[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-09T04:18:00.097Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
+[debug] [2024-10-09T04:18:00.098Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-09T04:18:00.098Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:18:00.099Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:18:00.099Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-09T04:18:00.927Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-09T04:18:00.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[info] 
+[info] === Deploying to 'resumewebsite-a48fc'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-10-09T04:18:00.933Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:18:00.933Z] Checked if tokens are valid: true, expires at: 1728449552021
+[debug] [2024-10-09T04:18:00.933Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions [none]
+[debug] [2024-10-09T04:18:00.933Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-10-09T04:18:01.939Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions 200
+[debug] [2024-10-09T04:18:01.940Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"name":"projects/129686599732/sites/resumewebsite-a48fc/versions/483d0a153de42891","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[resumewebsite-a48fc]: beginning deploy... 
+[info] i  hosting[resumewebsite-a48fc]: found 84 files in ./ 
+[debug] [2024-10-09T04:18:01.979Z] [hosting] uploading with 200 concurrency
+[debug] [2024-10-09T04:18:01.981Z] [hosting] hash cache [] not populated
+[debug] [2024-10-09T04:18:02.000Z] Error: EISDIR: illegal operation on a directory, read
+[error] 
+[error] Error: An unexpected error has occurred.
