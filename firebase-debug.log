@@ -1,116 +1,112 @@
-[debug] [2024-10-09T04:16:31.964Z] ----------------------------------------------------------------------
-[debug] [2024-10-09T04:16:31.966Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2024-10-09T04:16:31.966Z] CLI Version:   13.22.0
-[debug] [2024-10-09T04:16:31.966Z] Platform:      win32
-[debug] [2024-10-09T04:16:31.966Z] Node Version:  v20.17.0
-[debug] [2024-10-09T04:16:31.967Z] Time:          Tue Oct 08 2024 21:16:31 GMT-0700 (Pacific Daylight Time)
-[debug] [2024-10-09T04:16:31.967Z] ----------------------------------------------------------------------
+[debug] [2024-10-10T04:04:58.352Z] ----------------------------------------------------------------------
+[debug] [2024-10-10T04:04:58.363Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-10-10T04:04:58.363Z] CLI Version:   13.22.0
+[debug] [2024-10-10T04:04:58.363Z] Platform:      win32
+[debug] [2024-10-10T04:04:58.363Z] Node Version:  v20.17.0
+[debug] [2024-10-10T04:04:58.364Z] Time:          Wed Oct 09 2024 21:04:58 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-10-10T04:04:58.364Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-10-09T04:16:32.029Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.030Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.031Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:16:32.031Z] Field ".hosting.rewrites[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
-[debug] [2024-10-09T04:16:32.031Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
-[debug] [2024-10-09T04:16:32.031Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
-[debug] [2024-10-09T04:16:32.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-10-09T04:16:32.035Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
-[debug] [2024-10-09T04:16:32.035Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2024-10-09T04:16:32.036Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:32.037Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
-[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
-[debug] [2024-10-09T04:16:32.038Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-10-09T04:16:33.278Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
-[debug] [2024-10-09T04:16:33.279Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-10-09T04:16:33.279Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:33.279Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:33.280Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
-[debug] [2024-10-09T04:16:34.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
-[debug] [2024-10-09T04:16:34.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[debug] [2024-10-10T04:04:58.366Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-10-10T04:04:58.471Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-10T04:04:58.472Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
+[debug] [2024-10-10T04:04:58.472Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get"]
+[debug] [2024-10-10T04:04:58.472Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:58.472Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:58.473Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
+[debug] [2024-10-10T04:04:58.473Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
+[debug] [2024-10-10T04:04:58.473Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-10T04:04:58.911Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-10-10T04:04:58.912Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-10-10T04:04:58.950Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
+[debug] [2024-10-10T04:04:58.950Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-10T04:04:58.950Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:58.950Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:58.950Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-10T04:04:59.348Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-10T04:04:59.348Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
 [info] 
-[info] === Deploying to 'resumewebsite-a48fc'...
+[info] === Serving from 'C:\Users\wayne\OneDrive\Documents\GitHub\Personal-Site'...
 [info] 
-[info] i  deploying hosting 
-[debug] [2024-10-09T04:16:34.225Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:34.225Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:16:34.225Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions [none]
-[debug] [2024-10-09T04:16:34.226Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
-[debug] [2024-10-09T04:16:35.220Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions 200
-[debug] [2024-10-09T04:16:35.220Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"name":"projects/129686599732/sites/resumewebsite-a48fc/versions/1c0aa9e63c5ba02f","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
-[info] i  hosting[resumewebsite-a48fc]: beginning deploy... 
-[info] i  hosting[resumewebsite-a48fc]: found 84 files in / 
-[debug] [2024-10-09T04:16:35.261Z] [hosting] uploading with 200 concurrency
-[debug] [2024-10-09T04:16:35.261Z] [hosting] hash cache [] not populated
-[debug] [2024-10-09T04:16:35.315Z] Error: EISDIR: illegal operation on a directory, read
-[error] 
-[error] Error: An unexpected error has occurred.
-[debug] [2024-10-09T04:17:59.131Z] ----------------------------------------------------------------------
-[debug] [2024-10-09T04:17:59.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2024-10-09T04:17:59.134Z] CLI Version:   13.22.0
-[debug] [2024-10-09T04:17:59.134Z] Platform:      win32
-[debug] [2024-10-09T04:17:59.134Z] Node Version:  v20.17.0
-[debug] [2024-10-09T04:17:59.134Z] Time:          Tue Oct 08 2024 21:17:59 GMT-0700 (Pacific Daylight Time)
-[debug] [2024-10-09T04:17:59.134Z] ----------------------------------------------------------------------
+[debug] [2024-10-10T04:04:59.351Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:59.351Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:04:59.353Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites 
+[debug] [2024-10-10T04:05:00.255Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites 200
+[debug] [2024-10-10T04:05:00.256Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites {"sites":[{"name":"projects/resumewebsite-a48fc/sites/resumewebsite-a48fc","defaultUrl":"https://resumewebsite-a48fc.web.app","appId":"1:129686599732:web:906c5ecc17672e0d2df261","type":"DEFAULT_SITE"}]}
+[debug] [2024-10-10T04:05:00.256Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:05:00.256Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:05:00.256Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config [none]
+[debug] [2024-10-10T04:05:00.561Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config 200
+[debug] [2024-10-10T04:05:00.562Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config {"projectId":"resumewebsite-a48fc","appId":"1:129686599732:web:906c5ecc17672e0d2df261","databaseURL":"https://resumewebsite-a48fc-default-rtdb.firebaseio.com","storageBucket":"resumewebsite-a48fc.appspot.com","apiKey":"AIzaSyDBqDw1xTQk-6BvMrOJVEHsj4SxvSc_ZoQ","authDomain":"resumewebsite-a48fc.firebaseapp.com","messagingSenderId":"129686599732","measurementId":"G-WBBLMWZ8JY"}
+[debug] [2024-10-10T04:05:00.568Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:05:00.568Z] Checked if tokens are valid: true, expires at: 1728534746420
+[debug] [2024-10-10T04:05:00.568Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-10T04:05:00.711Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-10T04:05:00.711Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[info] i  hosting[resumewebsite-a48fc]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[resumewebsite-a48fc]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [10/Oct/2024:04:05:27 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [10/Oct/2024:04:05:27 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [10/Oct/2024:04:05:27 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [10/Oct/2024:04:05:27 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [10/Oct/2024:04:06:32 +0000] "GET / HTTP/1.1" 200 243 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [10/Oct/2024:04:06:32 +0000] \"GET / HTTP/1.1\" 200 243 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[debug] [2024-10-11T04:22:01.183Z] ----------------------------------------------------------------------
+[debug] [2024-10-11T04:22:01.194Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wayne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-10-11T04:22:01.194Z] CLI Version:   13.22.0
+[debug] [2024-10-11T04:22:01.194Z] Platform:      win32
+[debug] [2024-10-11T04:22:01.195Z] Node Version:  v20.17.0
+[debug] [2024-10-11T04:22:01.195Z] Time:          Thu Oct 10 2024 21:22:01 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-10-11T04:22:01.195Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:17:59.186Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.187Z] Object ".hosting.rewrites[0]" in "firebase.json" has unknown property: {"additionalProperty":"source"}
-[debug] [2024-10-09T04:17:59.187Z] Field ".hosting.rewrites[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
-[debug] [2024-10-09T04:17:59.187Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
-[debug] [2024-10-09T04:17:59.187Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
-[debug] [2024-10-09T04:17:59.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-10-09T04:17:59.190Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
-[debug] [2024-10-09T04:17:59.190Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2024-10-09T04:17:59.191Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:17:59.191Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
-[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
-[debug] [2024-10-09T04:17:59.192Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-10-09T04:18:00.097Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
-[debug] [2024-10-09T04:18:00.098Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-10-09T04:18:00.098Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:18:00.099Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:18:00.099Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
-[debug] [2024-10-09T04:18:00.927Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
-[debug] [2024-10-09T04:18:00.927Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[debug] [2024-10-11T04:22:01.198Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-10-11T04:22:01.295Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-11T04:22:01.296Z] > authorizing via signed-in user (wayne.a.ross01@gmail.com)
+[debug] [2024-10-11T04:22:01.296Z] [iam] checking project resumewebsite-a48fc for permissions ["firebase.projects.get"]
+[debug] [2024-10-11T04:22:01.297Z] Checked if tokens are valid: false, expires at: 1728534746420
+[debug] [2024-10-11T04:22:01.297Z] Checked if tokens are valid: false, expires at: 1728534746420
+[debug] [2024-10-11T04:22:01.297Z] > refreshing access token with scopes: []
+[debug] [2024-10-11T04:22:01.298Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-10-11T04:22:01.298Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-11T04:22:02.023Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-10-11T04:22:02.024Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-10-11T04:22:02.044Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-10-11T04:22:02.044Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-11T04:22:02.050Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions [none]
+[debug] [2024-10-11T04:22:02.050Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions x-goog-quota-user=projects/resumewebsite-a48fc
+[debug] [2024-10-11T04:22:02.050Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-11T04:22:02.471Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions 200
+[debug] [2024-10-11T04:22:02.471Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resumewebsite-a48fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-10-11T04:22:02.472Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:02.472Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:02.472Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-11T04:22:02.788Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-11T04:22:02.788Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
 [info] 
-[info] === Deploying to 'resumewebsite-a48fc'...
+[info] === Serving from 'C:\Users\wayne\OneDrive\Documents\GitHub\Personal-Site'...
 [info] 
-[info] i  deploying hosting 
-[debug] [2024-10-09T04:18:00.933Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:18:00.933Z] Checked if tokens are valid: true, expires at: 1728449552021
-[debug] [2024-10-09T04:18:00.933Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions [none]
-[debug] [2024-10-09T04:18:00.933Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
-[debug] [2024-10-09T04:18:01.939Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions 200
-[debug] [2024-10-09T04:18:01.940Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/resumewebsite-a48fc/versions {"name":"projects/129686599732/sites/resumewebsite-a48fc/versions/483d0a153de42891","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
-[info] i  hosting[resumewebsite-a48fc]: beginning deploy... 
-[info] i  hosting[resumewebsite-a48fc]: found 84 files in ./ 
-[debug] [2024-10-09T04:18:01.979Z] [hosting] uploading with 200 concurrency
-[debug] [2024-10-09T04:18:01.981Z] [hosting] hash cache [] not populated
-[debug] [2024-10-09T04:18:02.000Z] Error: EISDIR: illegal operation on a directory, read
-[error] 
-[error] Error: An unexpected error has occurred.
+[debug] [2024-10-11T04:22:02.803Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:02.803Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:02.804Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites 
+[debug] [2024-10-11T04:22:03.740Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites 200
+[debug] [2024-10-11T04:22:03.740Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/resumewebsite-a48fc/sites {"sites":[{"name":"projects/resumewebsite-a48fc/sites/resumewebsite-a48fc","defaultUrl":"https://resumewebsite-a48fc.web.app","appId":"1:129686599732:web:906c5ecc17672e0d2df261","type":"DEFAULT_SITE"}]}
+[debug] [2024-10-11T04:22:03.740Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:03.740Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:03.740Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config [none]
+[debug] [2024-10-11T04:22:04.174Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config 200
+[debug] [2024-10-11T04:22:04.174Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc/webApps/1:129686599732:web:906c5ecc17672e0d2df261/config {"projectId":"resumewebsite-a48fc","appId":"1:129686599732:web:906c5ecc17672e0d2df261","databaseURL":"https://resumewebsite-a48fc-default-rtdb.firebaseio.com","storageBucket":"resumewebsite-a48fc.appspot.com","apiKey":"AIzaSyDBqDw1xTQk-6BvMrOJVEHsj4SxvSc_ZoQ","authDomain":"resumewebsite-a48fc.firebaseapp.com","messagingSenderId":"129686599732","measurementId":"G-WBBLMWZ8JY"}
+[debug] [2024-10-11T04:22:04.189Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:04.189Z] Checked if tokens are valid: true, expires at: 1728624121044
+[debug] [2024-10-11T04:22:04.189Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc [none]
+[debug] [2024-10-11T04:22:04.382Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc 200
+[debug] [2024-10-11T04:22:04.382Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resumewebsite-a48fc {"projectId":"resumewebsite-a48fc","projectNumber":"129686599732","displayName":"ResumeWebsite","name":"projects/resumewebsite-a48fc","resources":{"hostingSite":"resumewebsite-a48fc","realtimeDatabaseInstance":"resumewebsite-a48fc-default-rtdb"},"state":"ACTIVE","etag":"1_ecf98bc3-25f5-4ef6-adab-f5f60f9aa4e8"}
+[info] i  hosting[resumewebsite-a48fc]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[resumewebsite-a48fc]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:22:09 +0000] "GET / HTTP/1.1" 200 243 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:22:09 +0000] \"GET / HTTP/1.1\" 200 243 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:43:24 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:43:24 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:43:26 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:43:26 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:43:35 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:43:35 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:43:57 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:43:57 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:44:19 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:44:19 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:44:21 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:44:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:44:51 +0000] "GET / HTTP/1.1" 200 239 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:44:51 +0000] \"GET / HTTP/1.1\" 200 239 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:50:30 +0000] "GET / HTTP/1.1" 200 497 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:50:30 +0000] \"GET / HTTP/1.1\" 200 497 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:50:31 +0000] "GET /script.js HTTP/1.1" 404 148 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:50:31 +0000] \"GET /script.js HTTP/1.1\" 404 148 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:55:05 +0000] "GET / HTTP/1.1" 200 505 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:55:05 +0000] \"GET / HTTP/1.1\" 200 505 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [11/Oct/2024:04:55:06 +0000] "GET /index.js HTTP/1.1" 404 147 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [11/Oct/2024:04:55:06 +0000] \"GET /index.js HTTP/1.1\" 404 147 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36\""}}
