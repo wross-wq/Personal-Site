@@ -32,6 +32,58 @@
     section.active {
       display: block;
     }
+    .scrollable-div {
+      width: 300px;             /* Set the width of the div */
+      height: 200px;            /* Set a fixed height */
+      border: 1px solid #ccc;   /* Border for visibility */
+      padding: 10px;            /* Some padding */
+      overflow-y: auto;         /* Vertical scroll enabled */
+      overflow-x: hidden;       /* Disable horizontal scrolling */
+    }
+    .scrollable-div p {
+      margin-bottom: 15px;
+    }
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: lightgray;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: grey;
+    }
+    image {
+      width: 20px;
+      height: 20px;
+    }
   </style>
 </head>
 <body>
@@ -46,28 +98,63 @@
   </nav>
 
   <section id="home" class="active">
-    <h1>Home Page</h1>
-    <p>Welcome to my home page</p>
+    <h1>Hi, I am Wayne Ross</h1>
+    <h2>I'm a Software Engineer.</h2>
   </section>
 
   <section id="about">
-    <h1>About Page</h1>
-    <p>Welcome to my about page</p>
+    <h1>ABOUT ME</h1>
+    <p>Wayne is a proven Developer With several years of experience, 
+      gained through his college education, personal projects, and
+      an internship. Throughout his journey, he have worked on a range of
+      projects using various technologies, such as Visual Studio Code, HTML, 
+      Git, MySQL, Java, SwiftUI, Javascript, GraphQL, AWS.
+    </p>
+    <p>
+      He specializes in mobile application development. Helping organizations create user-freindly, 
+      scalable applications for clients.
+    </p>
   </section>
 
   <section id="resume">
-    <h1>Resume Page</h1>
-    <p>Welcome to my resume page</p>
+    <h1>VEIW MY RESUME!</h1>
+    <h3>WORK HISTORY</h3>
+    <div class="scrollable-div">
+      <p>This is a scrollable div. Scroll down to see more content.</p>
+      <p>Paragraph 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Paragraph 3: Aliquam non justo aliquet, dictum lorem sed, interdum dui.</p>
+      <p>Paragraph 4: Curabitur sed sapien vel libero consectetur ultricies.</p>
+      <p>Paragraph 5: Vestibulum ante ipsum primis in faucibus orci luctus et.</p>
+      <p>Paragraph 6: Duis nec orci vel velit vulputate tempus sed eu justo.</p>
+      <p>Paragraph 7: Ut sollicitudin lectus nec tincidunt vehicula.</p>
+      <p>Paragraph 8: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
   </section>
 
   <section id="touchdesigner">
-    <h1>Touchdesigner Page</h1>
-    <p>Welcome to my touchdesigner page</p>
+    <h1>TOUCHDESIGNER PORTFOLIO</h1>
   </section>
 
   <section id="contact">
-    <h1>Contact Page</h1>
-    <p>Welcome to my contact page</p>
+    <h1>CONTACT ME</h1>
+    <div class="contact-form">
+      <form action="/submit_form" method="POST">
+        <!-- Name Field -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." required>
+  
+        <!-- Email Field -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email..." required>
+  
+        <!-- Message Field -->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+  
+        <!-- Submit Button -->
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
   </section>
 
   <script>
